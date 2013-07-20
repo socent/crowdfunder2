@@ -12,6 +12,6 @@ class SorceryCore < ActiveRecord::Migration
   end
 
   def self.down
-    # drop_table :users
+    drop_table :users
   end
 end
